@@ -1,0 +1,11 @@
+#include <iostream>
+
+#include "json/json.h"
+#include "ExtractDataset.h"
+
+int main()
+{
+	ExtractDataset extractMessage;
+	extractMessage.readDataset("/home/cheetah/Desktop/Sub_of_Ports_in_Las_Vegas_All.txt");
+	return 0;
+}
